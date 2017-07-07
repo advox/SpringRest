@@ -8,5 +8,4 @@ git pull
 mvn package
 mvn clean package
 /etc/init.d/demoapp start
-echo 'Done'
 EOF
