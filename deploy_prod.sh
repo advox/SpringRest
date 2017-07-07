@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ssh -v root@46.101.133.26 << EOF
-cd /root/javaapp/
+cd /var/demoapp
 git checkout --force master
 git pull
 mvn package
